@@ -9,13 +9,13 @@ void area(double r)
     // cout<<"Enter circumference : ";
     double area;
     area = pi * pow(r, 2);
-    cout << area << "m^2" << endl;
+    cout << area << "m^2" << endl;  // calculating the area
 }
 void circumference(double r)
 {
     // cout<<"Enter  : ";
     double circumference;
-    circumference = 2 * pi * r;
+    circumference = 2 * pi * r; // calculating the circumference
     cout << circumference << "m" << endl;
 }
 int main()
